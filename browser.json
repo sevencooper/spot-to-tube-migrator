@@ -1,0 +1,22 @@
+{
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "accept-language": "en-US,en;q=0.5",
+    "alt-used": "music.youtube.com",
+    "authorization": "SAPISIDHASH 1756672790_5fdc8210e7566dd101be10be1d07046c07a96cb9_u SAPISID1PHASH 1756672790_5fdc8210e7566dd101be10be1d07046c07a96cb9_u SAPISID3PHASH 1756672790_5fdc8210e7566dd101be10be1d07046c07a96cb9_u",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "application/json",
+    "cookie": "__Secure-1PSIDTS=sidts-CjEB5H03P1jyhhcUxhc9kyExU6zpk6ZVYjJf1hN5tNJRe59RVy9t9mG7DfsDwelXYBItEAA; __Secure-3PSIDTS=sidts-CjEB5H03P1jyhhcUxhc9kyExU6zpk6ZVYjJf1hN5tNJRe59RVy9t9mG7DfsDwelXYBItEAA; HSID=ANv7yaJdBmSAG9oAb; SSID=A6vEN49IVC0i0FCiY; APISID=aUsrfjY9OBmCIvEr/AuTsQKPa0teEKY3LR; SAPISID=3aTUTCljOsZI7U0p/A1tZRZ4P2cKsMLiPg; __Secure-1PAPISID=3aTUTCljOsZI7U0p/A1tZRZ4P2cKsMLiPg; __Secure-3PAPISID=3aTUTCljOsZI7U0p/A1tZRZ4P2cKsMLiPg; SID=g.a0000AhGeBLO-aHR72n4Y9lyLqnb2f688UOw6QjJDSmQ_SxNOvJhbUar8cU5d4MiD1_jXVo_AAACgYKAbcSARQSFQHGX2MiNkvWLVUSEz2j3JiFq7eyCxoVAUF8yKrj_6WtRRr8FX5jXpys89600076; __Secure-1PSID=g.a0000AhGeBLO-aHR72n4Y9lyLqnb2f688UOw6QjJDSmQ_SxNOvJhiDwfEU1WD4mTB991gyHEOgACgYKAZoSARQSFQHGX2MiHE5eo-dc2RF56fI_wPK4kxoVAUF8yKpoYfYb093iQ7oCYx1HjLqi0076; __Secure-3PSID=g.a0000AhGeBLO-aHR72n4Y9lyLqnb2f688UOw6QjJDSmQ_SxNOvJhvfmVpQ_S4-H-NjcQmtXBzAACgYKAV4SARQSFQHGX2MikXL0wbk-_PTH7IUrYSWRjhoVAUF8yKrpId861prVIDPZOYkImzQ90076; __Secure-ROLLOUT_TOKEN=CMz0z7jP4eehChClofr2vvKNAxjGtv-qqLWPAw%3D%3D; VISITOR_INFO1_LIVE=nAeO1GL92TM; VISITOR_PRIVACY_METADATA=CgJVUxIEGgAgQA%3D%3D; SIDCC=AKEyXzXULaU4IscV1dRHsXj10iB1xUEy14MHIsNcGB9C5JC0ih6-cO957YItUDtobRvxb70mpQ; __Secure-1PSIDCC=AKEyXzUUxd7WHRVbikJKmfv8bgOtIvIZqQb0BcrZxYCZRba5PzFuikbNTR3Wp5wlushv3T4yaQ; __Secure-3PSIDCC=AKEyXzXDH_yuT61rLBUEiglWkNABwWzO5SCwY2CXvs6q9gZdJEdBq0X464kwWKU9m3Fb0OjGVQ; PREF=f4=4000000&f6=40000000&tz=America.New_York&f5=30000&f7=100; LOGIN_INFO=AFmmF2swRQIgZFf-3h9llovfrFcEixlb8uotTDM_cyffxktPEBwmqPcCIQCBMgh_rooCZLdfvXVLOYER80X3_aO7LhbxsAHEoQaQeA:QUQ3MjNmeHBNX2VxOEtXTHZFQ2lDTUxvbFF0WHBOdjV5eGpXNnA0VFZPVDlFN1N2Z1NINEEzekdnUW1QRlU4Ny1NRk4xa1pKWFNwWTRQMTROUGFZdUczd2xwTjAxRi1BSTRDYjJvaUtscTVHRjBHdTdud0dNMXE5NHd2eXZRM1VVbzlMN2Mza3dxbGR0S1Z5aEpFY2QzRVVSMnlkZ0tucUhB; NID=525=HZtdunNgygJ7aSlL7iKWP9Jm9px-c68RTUpt7TzmRnKOXC06eoF3i6oP-MssSgMz34XH2AqrQobYmns_RSmvvNMZeRiZwqGTgrk5SG7Ce7OvaVWi4xYjVqFasWyIidbnxs1_KpMEEgw6d_lcaGqtZKomioeg_XvH25I20DV9Drl0EUqT5oN06_S5vQ; YSC=ANZo7gAPENo; wide=1; CONSISTENCY=AKreu9tvU-y8HRxK08RMNeFgzcBjk__KeOpKS_yBh_vQKO2H9Nk7eXjMRKbQ7ipAfvxSEUim0EO0gCVVpejiYJmmz93vNrwJjJ-xuP-u3r0xGfCLN-Dj4I7aFC91GFQLkncXsKrIyKXejzEj9VkpoqRo",
+    "origin": "https://music.youtube.com",
+    "priority": "u=0",
+    "referer": "https://music.youtube.com/search?q=nightcore",
+    "te": "trailers",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+    "x-goog-authuser": "0",
+    "x-goog-visitor-id": "CgtuQWVPMUdMOTJUTSjn5dLFBjIKCgJVUxIEGgAgQA%3D%3D",
+    "x-origin": "https://music.youtube.com",
+    "x-youtube-bootstrap-logged-in": "true",
+    "x-youtube-client-name": "67",
+    "x-youtube-client-version": "1.20250827.05.00"
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spot-to-Tube Migrator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Spot-to-Tube Playlist Migrator</h1>
+            <p>Transfer your Spotify playlists to YouTube Music locally and securely.</p>
+        </header>
+
+        <!-- Step 1: Spotify -->
+        <section id="spotify-section">
+            <h2>Step 1: Connect to Spotify</h2>
+            {% if spotify_user %}
+                <p class="status-success">✅ Connected as <strong>{{ spotify_user }}</strong></p>
+                <form action="/logout/spotify" method="post">
+                    <button type="submit" class="button-secondary">Disconnect Spotify</button>
+                </form>
+                <div id="playlist-container">
+                    <h3>Your Spotify Playlists:</h3>
+                    <div id="playlist-loader" class="loader"></div>
+                    <div id="playlist-list"></div>
+                </div>
+            {% else %}
+                <form action="/login/spotify">
+                    <button type="submit" class="button-primary">Login with Spotify</button>
+                </form>
+            {% endif %}
+        </section>
+
+        <!-- Step 2: YouTube Music -->
+        <section id="youtube-section">
+            <h2>Step 2: Connect to YouTube Music</h2>
+            <p class="status">Status: <span id="yt-status" class="status-error">❌ Not Connected</span></p>
+            <div class="instructions">
+                <p>This requires manually providing authentication headers. Follow the instructions <a href="https://ytmusicapi.readthedocs.io/en/latest/setup.html#copy-authentication-headers" target="_blank" rel="noopener noreferrer">here</a> to get them from your browser.</p>
+            </div>
+            <textarea id="yt-headers" placeholder="Paste the entire block of header text here..."></textarea>
+            <button id="verify-yt-btn" class="button-primary">Verify & Connect</button>
+            <p id="yt-message" class="message"></p>
+        </section>
+
+        <!-- Step 3: Migration -->
+        <section id="migration-section">
+            <h2>Step 3: Start Migration</h2>
+            <button id="start-migration-btn" class="button-cta" disabled>Start Migration</button>
+        </section>
+
+        <!-- Step 4: Results -->
+        <section id="results-section" class="hidden">
+            <h2>Migration Progress & Results</h2>
+            <div id="migration-loader" class="loader hidden"></div>
+            <div id="summary-report"></div>
+            <h3>Detailed Log:</h3>
+            <pre id="migration-log"></pre>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
