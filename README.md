@@ -92,7 +92,7 @@ You need to register an application with Spotify to get API keys.
 2.  **Select Playlists:** Once connected, your Spotify playlists will appear. Use the checkboxes to select the ones you want to migrate.
 3.  **Connect to YouTube Music:**
     *   This app uses the `ytmusicapi` library, which requires authentication headers from your browser.
-    *   Follow the **[official instructions here](https://ytmusicapi.readthedocs.io/en/latest/setup.html#copy-authentication-headers)** to learn how to copy these headers from your browser's developer tools.
+    *   Follow the **[official instructions here](https://ytmusicapi.readthedocs.io/en/stable/setup/browser.html)** to learn how to copy these headers from your browser's developer tools.
     *   Paste the *entire block of text* into the text area in the app.
     *   Click "Verify & Connect". You should see a success message.
 4.  **Start Migration:** The "Start Migration" button will become active. Click it to begin the transfer process.
