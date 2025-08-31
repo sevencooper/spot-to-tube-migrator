@@ -12,3 +12,5 @@ __pycache__/
 # IDE files (optional but good practice)
 .idea/
 .vscode/
+
+.cache

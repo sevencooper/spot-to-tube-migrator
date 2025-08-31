@@ -25,7 +25,7 @@ A simple, locally-hosted web application to migrate your music playlists from Sp
 
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/your-username/spot-to-tube-migrator.git
+git clone https://github.com/sevencooper/spot-to-tube-migrator.git
 cd spot-to-tube-migrator
 ```
 
